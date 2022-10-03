@@ -1,0 +1,102 @@
+﻿@page
+
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    List<string> cats = new List<string>()
+    {
+        "cat1", "cat2"
+    };
+
+    int x = 4;
+    int y = 7;
+
+}
+
+<div>
+    <h3>if , if-else , else</h3>
+    @{
+        // if
+        if ( x > 5 )
+        {
+            Console.WriteLine("true");
+        }
+
+        // else-if
+        if (x > 5)
+        {
+            Console.WriteLine("true");
+        }
+        else if ( x < 5)
+        {
+            Console.WriteLine("false");
+        }
+
+        //else
+        if (x > 5)
+        {
+            Console.WriteLine("true");
+        }
+        else
+        {
+            Console.WriteLine("false");
+        }
+
+    }
+
+
+    <h3>for , foreach</h3>
+    
+    @{
+        // for
+        for (int i = 0; i< x; i++)
+        {
+            Console.WriteLine("round : " + i);
+        }
+
+        // foreach
+        foreach (string cat in cats)
+        {
+            Console.WriteLine(cat);
+        }
+    }
+
+
+    <h3>while , do-while</h3>
+    
+    @{
+        // while
+        while (x <= 6)
+        {
+            Console.WriteLine("hello");
+            x++ ;
+        }
+
+        // do-while
+        do
+        {
+            Console.WriteLine("hello");
+            x++;
+        }
+        while (x <= 8);
+    }
+
+    <h3>switch</h3>
+    
+    @{
+        switch (y)
+        {
+            case 6:
+                Console.WriteLine("case1");
+                break;
+            case 7:
+                Console.WriteLine("case2");
+                break;
+            default:
+                Console.WriteLine("NotMap");
+                break;
+        }
+    }
+
+</div>
+

@@ -1,0 +1,74 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+    ViewData["ExamName"] = "Exam";
+    List<Cal> cals = (List<Cal>) ViewData["Cals"];
+
+}
+<h1>@ViewData["ExamName"]</h1>
+<div style="width:1000px;">
+
+    <form method="POST" class="form-control" style="width:500px;top: auto;position: fixed; left:auto; display:inline-block ; height : 275px ;">
+
+        
+        <label>Num1 : </label>
+        <input type="number" asp-for="num1" />
+        <br />
+
+        <label>Num2 : </label>
+        <input type="number" asp-for="num2" />
+        <br />
+        <br />
+
+        <label>Result : </label>
+        <input type="text" value="@ViewData["result"]" asp-for="resu" disabled="true" />
+        <br />
+        <br />
+        <input type="radio" asp-for="marks" value="+" />  +
+        <br />
+        <input type="radio" asp-for="marks" value="-" />  -
+        <br />
+        <input type="radio" asp-for="marks" value="*" />  x
+        <br />
+        <input type="radio" asp-for="marks" value="/" />  ÷
+        <br />
+ 
+
+        <input type="submit" value="Calculate" />
+        
+        
+
+
+
+    </form>
+
+
+    <div class="text-center form-control" style="height : 275px ;width:400px; top: auto;position: relative; left:500px; display:inline-block ; overflow : scroll;margin-left : 20px;">
+        <h1 class="display-4"></h1>
+        <table>
+        
+
+            @{
+                foreach (var cal in cals)
+                {
+
+                            <tr>
+
+                                <td>@cal.num1</td>
+                                <td>@cal.marks</td>
+                                <td>@cal.num2</td>
+                                <td>=</td>
+                                <td>@cal.result</td>
+
+                            </tr>
+                }
+            }
+
+        </table>
+
+    </div>
+</div>
+
+
+

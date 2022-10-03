@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sP9Jlizci81gxloiPwsQQO09fLTT2FI8VGQcPzFmAJsWPCF6cEOkanKMxe1NVTa5ob4Xa93VZEmU0tXoscOWSg==",
+  "success": true,
+  "projectFilePath": "C:\\Test\\exam\\exam\\exam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\baimo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\baimo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512"
+  ],
+  "logs": []
+}

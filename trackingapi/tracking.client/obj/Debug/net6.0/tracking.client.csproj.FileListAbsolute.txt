@@ -1,0 +1,15 @@
+C:\Test\trackingapi\tracking.client\bin\Debug\net6.0\tracking.client.exe
+C:\Test\trackingapi\tracking.client\bin\Debug\net6.0\tracking.client.deps.json
+C:\Test\trackingapi\tracking.client\bin\Debug\net6.0\tracking.client.runtimeconfig.json
+C:\Test\trackingapi\tracking.client\bin\Debug\net6.0\tracking.client.dll
+C:\Test\trackingapi\tracking.client\bin\Debug\net6.0\tracking.client.pdb
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.csproj.AssemblyReference.cache
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.AssemblyInfoInputs.cache
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.AssemblyInfo.cs
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.csproj.CoreCompileInputs.cache
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.dll
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\refint\tracking.client.dll
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.pdb
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\tracking.client.genruntimeconfig.cache
+C:\Test\trackingapi\tracking.client\obj\Debug\net6.0\ref\tracking.client.dll
